@@ -62,6 +62,8 @@ window.matchMedia || (window.matchMedia = function (win) {
             if (media === '') {
                 return true;
             }
+						
+						_setFeature();
 
             do {
                 mq          = mql[mqLength - mqIndex];
